@@ -18,6 +18,13 @@
         "johnitvn/yii2-user-plus": "High flexible user management extension for yii2"
     },
     "minimum-stability": "dev",
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/guimarca/yii2-ajaxcrud"
+        }
+    ],
     "require": {
         "yiisoft/yii2": ">=2.0.4",
         "johnitvn/yii2-ajaxcrud": ">=2.0.0"
